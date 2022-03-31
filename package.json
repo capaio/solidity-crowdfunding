@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "compile-contracts": "cd ethereum && node compile.js"
+    "compile-contracts": "node ethereum/compile.js",
+    "deploy-contracts": "node ethereum/compile.js"
   },
   "author": "",
   "license": "ISC",
